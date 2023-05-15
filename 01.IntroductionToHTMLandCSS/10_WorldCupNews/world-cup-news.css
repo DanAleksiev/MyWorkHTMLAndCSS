@@ -21,4 +21,8 @@ li{
     margin-bottom: 5px;
     font-size: 14px;
     border: 1px solid #000000;
+    list-style-image: none;
+}
+ul {
+    list-style-type: none;
 }
