@@ -1,0 +1,30 @@
+@impor thttps: //use.fontawesome.com/releases/v5.6.3/css/all.css;
+
+h2 {
+    font-size: 23px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.90em;
+}
+
+.button {
+    margin: 10px 10px;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 9px;
+    padding: 5px 2px;
+    cursor: pointer;
+    outline: none;
+    color: rgb(51, 51, 51);
+}
+
+.fill {
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.hover:hover {
+    background-color: rgb(0, 102, 0);
+    border: 0px solid rgb(51, 51, 51);
+}
