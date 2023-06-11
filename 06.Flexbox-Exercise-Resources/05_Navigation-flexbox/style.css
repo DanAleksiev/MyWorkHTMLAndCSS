@@ -1,0 +1,26 @@
+header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+header ul {
+    display: flex;
+}
+
+
+header nav ul li a{
+    color:rgb(0, 153, 0);
+    padding: 0.5em;
+    align-items:flex-end;
+}
+
+nav li {
+    display:block;
+}
+
+header nav{
+    margin-left: auto;
+}
+ul{ list-style-type: none;  }
+
+a:link { text-decoration: none; }
