@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 1em;
+    display:flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family:  Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    height: 3em;
+    flex-wrap: wrap-reverse;
+}
+
+footer p {
+    margin: 1em;
+}
+
+header{
+    flex-basis: 100%;
+ 
+    border-bottom: 2px solid #000;
+    text-transform: uppercase;
+}
