@@ -1,0 +1,8 @@
+.site-footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(208, 25, 25, 1);
+    color: #000;
+    margin-top: auto;
+}

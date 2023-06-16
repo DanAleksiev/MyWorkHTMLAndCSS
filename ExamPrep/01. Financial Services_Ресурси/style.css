@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html{
+    font-family: Poppins,serif;
+    font-size: 16px;
+}
+
+body{
+    display: block;
+    width: 900px;
+    margin: 3em;
+}
+
+.article-pages{
+    display: flex;
+    gap: 1em;
+    width: 80em;
+}
+
+.page-header{
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 25em;
+}
+
+.page-header h1{
+    margin-top: 0.5em;
+    font-weight: 500;
+}
+
+.page-header p{
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+.page-header span{
+ color: rgba(50, 125, 196, 1);
+}
+
+.article-pages div{
+    flex: 1 1 33%;
+    background-color: rgba(129, 157, 175, 1);
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+   }
+
+.pic{
+    display: block;
+    width: 100%;
+    border-radius: 1em;
+}
+.card-text h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 18px;
+}
+.card-text p{
+    margin-bottom: 2em;
+}
+.card-text a{
+
+    margin-top: 3em;
+    text-decoration: none;
+    color: #fff;
+    background: blue;
+    font-size: 12px;
+    padding: 0.4em 1em 0.4em 1em;
+    border: 1px solid rgb(58, 71, 197);
+    /* box-shadow: 0 0 1em rgb(255, 255, 255, 0.3); */
+    border-radius: 2em;
+}

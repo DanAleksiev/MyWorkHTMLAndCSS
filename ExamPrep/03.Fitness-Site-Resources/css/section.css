@@ -1,0 +1,46 @@
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 1em;
+    list-style-type: none;
+}
+
+
+.info-bar a{
+    text-decoration: none;
+    padding: 1em;
+    color: #fff;
+}
+
+.banner-text{
+    margin: 5em;
+    color: #fff;
+    padding: 100;
+}
+
+.banner-text h1{
+    font-size: 40px;
+    letter-spacing: 0.3em;
+    
+}
+
+.banner-text p{
+
+    margin: 1em;
+}
+
+.banner-text a{
+
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(208, 25, 25, 1);
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
