@@ -1,0 +1,46 @@
+.site-main{
+    background: #fff;
+    /* padding: 1em 3em -2em 3em; */
+    margin-bottom: -2em;
+}
+
+.site-main h2{
+    padding-top: 1em;
+}
+
+.cards-welcome, .cards-coaches{
+    margin: 2em 7em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+}
+
+.site-main h4{
+    color: rgba(208, 25, 25, 1);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.coaches{
+    background-color: rgba(239, 239, 239, 1);
+    
+}
+
+.cards-coaches p{
+    margin-bottom: 2em;
+    color: rgba(179, 181, 199, 1);
+}
+
+.card img{
+    height: 3em;
+
+}
+
+.site-coach img{
+    max-height: 10em;
+    border-radius: .3em;
+}
+
+.site-coach h3{
+
+}

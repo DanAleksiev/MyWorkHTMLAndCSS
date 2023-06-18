@@ -1,0 +1,13 @@
+/* !! */
+.category-card-image{
+    /* display: grid; */
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+/* important for even stuff out in case  */
+    .home-cards-container::after{
+        display: block;
+        content: '';
+        flex: 1 1 200px;}

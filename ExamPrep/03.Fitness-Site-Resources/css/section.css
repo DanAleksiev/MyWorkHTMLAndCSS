@@ -5,19 +5,6 @@
     
 }
 
-.info-bar{
-    display: flex;
-    justify-content: end;
-    padding: 1em;
-    list-style-type: none;
-}
-
-
-.info-bar a{
-    text-decoration: none;
-    padding: 1em;
-    color: #fff;
-}
 
 .banner-text{
     margin: 5em;

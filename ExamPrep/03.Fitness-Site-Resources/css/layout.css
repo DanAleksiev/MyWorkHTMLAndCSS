@@ -1,19 +1,20 @@
+body{
+    background-color: black;
+
+}
+
 .site{
     display: flex;
     min-height: 100vh;
     position: relative;
-
     flex-direction: column;
     text-align: center;
 
-}
-
-.banner-container{
     background-image: url("../image/fitness-main.jpg");
     background-color: #000;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center -15em;
-    height: 67vh;
-    
+    background-size: 100% 70%;
+    background-position: center -10em;
+
 }
+

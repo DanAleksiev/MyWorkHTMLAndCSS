@@ -4,7 +4,7 @@
     width: 100%;
     background-color: rgba(208, 25, 25, 1);
     color: #fff;
-
+    padding: 0.4em 0;
 }
 
 .socials li{
@@ -17,6 +17,22 @@
     text-decoration: none;
 }
 
-.socials ul{
-    margin-right: 1em;
+.socials {
+    padding-right: 2em;
+}
+
+.info-bar{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding: 1em;
+    list-style-type: none;
+}
+
+
+.info-bar a{
+    text-decoration: none;
+    padding: 1em;
+    color: #fff;
+    /* background-color: blueviolet; */
 }
