@@ -1,0 +1,15 @@
+.site-footer{
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+}
+
+.site-footer .socials{
+    text-decoration: none;
+}
+
+.socials li {
+    display: inline;
+    margin: 0.3em;
+}

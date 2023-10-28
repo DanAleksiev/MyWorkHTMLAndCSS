@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 13px;
+    font-family: Inter, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-items: center;
+    margin: 10em;
+    gap: 2em;
+    
+}
+
+.hero .cards{
+    display: flex;
+    max-width: 23em;
+    box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.2);
+    height: 34em;
+    flex-wrap: wrap;
+
+
+
+}
+.cards h3{
+    margin-top: 0.5em;
+    color: gray;
+    font-size: 13px;
+}
+
+.cards h2{
+    margin-top: 0.5em;
+    margin-bottom: 1.3em;
+    font-weight: 400;
+}
+
+.landscape{
+    
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+
+}
+.info{
+    padding: 1em;
+}
+
+
+.head-shot img{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.head-shot{
+    display: flex;
+    border-top: 1px solid #000;
+    margin: 0.5em;
+    padding: 1em;
+    width: 100%;    
+    justify-content: space-between;
+
+    
+}
+
+.time{
+    color: gray;
+    transform: translate(0 , 0.3em);
+}
+
+
+
+.name{
+    font-size: 1;
+    transform: translate(-4em , 0.3em);
+
+}

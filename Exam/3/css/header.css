@@ -1,0 +1,36 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 3em 0.5em 3em;
+}
+
+.to-know{
+    text-decoration: none;
+   margin: 1em 3em;
+   
+}
+.to-know li{
+    display: inline;
+    margin: 1em;
+
+}
+
+
+ a:link {
+    text-decoration: none;
+    
+}
+
+.header-buttons{
+    margin: 1em 3em;
+
+}
+
+.header-buttons a{
+    padding: 0.7em 1em;
+    color: #000;
+}
+
+a{
+    color: #000;
+}

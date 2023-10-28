@@ -1,5 +1,0 @@
-CSS & Typography{
-    01. Restaurant Menu 92%
-    10.Icon Font List 88%
-}
-

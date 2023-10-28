@@ -1,0 +1,210 @@
+.firstPage {
+    padding: 3em 1em 4em 1em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.firstPage h1{
+    font-size: 40px;
+}
+
+.firstPage p{
+    margin: 2em;
+}
+
+.firstPage a{
+    margin: 0.2em;
+    padding: 1em;
+}
+/*  */
+
+.braging{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 5em;
+}
+
+.braging div{
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 0 2em 3em 2em;
+}
+
+
+
+
+/*  */
+.weird-phone-image{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ text-align: center;
+ height: 30em;
+ padding: 0 18em 0 18em;
+
+}
+.weird-phone-image img{
+    border: 1px dashed gray ;
+    height: 99%;
+    padding: -1em;
+}
+.phone-text{
+    padding: 5em 2em 0em 6em;
+    text-align: start;
+}
+
+.phone-text h2{
+    font-size: 30px;
+    margin-bottom: 0.7em;
+
+}
+.phone-text h3{
+    padding-bottom: 0.5em;
+}
+.phone-text p{
+    padding-bottom: 2em;
+}
+
+.phone-text a{
+    margin-top: 3em;
+    border-bottom: 1px solid #000;
+}
+/*  */
+.almost-empty-bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3em;
+
+}
+.almost-empty-bar a{
+   transform: translate(46em);
+    font-size: 14px;
+    width: 8%;
+    padding: 0.1em;
+
+    margin-bottom: 2em;
+}
+/*  */
+.prices-and-stuff{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    justify-content:space-between;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 1em;
+
+}
+
+.prices-and-stuff .prices{
+     display: flex;
+     flex-direction: row;
+}
+.prices{
+    margin: 1em 0 1em 1em;
+}
+.prices section{
+padding: 0 2em 0 2em;
+    border-right: 1px solid lightgray;
+    border-left: 1px  solid lightgray;
+}
+
+.prices li{
+ list-style-type: none;
+ 
+}
+
+.prices h3{
+    text-align: center;
+}
+
+.prices p {
+    margin-bottom: 1em;
+}
+
+.prices span{
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.prices h2{
+    font-size: 33px;
+
+    border-bottom: 1px solid lightgray;
+}
+.prices section{
+    display: flex;
+    flex-direction: column;
+}
+.prices a{
+    justify-content: center;
+    text-align: center;
+    margin: 2em 0 2em 0;
+    padding: 1em;
+}
+
+.prices ul{
+    margin: 1em 0 1em 0 ;
+    line-height: 2;
+}
+
+.side-green-bar h3{
+
+    text-align: center;
+}
+
+.side-green-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+}
+.side-green-bar li{
+    line-height: 2;
+    list-style-type: none;
+}
+
+.side-green-bar a{
+    margin-top: auto;
+    padding: 1em ;
+    text-align: center;
+}
+
+
+/*  */
+.empty-section{
+    margin: 3em;   
+}
+/*  */
+
+.get-them-custommers {
+    padding: 3em 1em 4em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 28em 3em 28em;
+}
+
+.get-them-custommers h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 0em 3em;
+    line-height: 1;
+}
+
+.get-them-custommers p{
+    margin-bottom: 3em;
+    text-align: center;
+
+}
+
+.get-them-custommers a{
+    margin: 0.2em;
+    padding: 1em;
+}
